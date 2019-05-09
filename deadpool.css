@@ -1,0 +1,98 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.wrap{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(-225deg, #A445B2 0%, #D41872 52%, #FF0066 100%);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.close{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 103px;
+    border-radius: 10px;
+    font-family: 'Do Hyeon', sans-serif;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+.card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 316px;
+    height: 500px;
+}
+.card > img{
+    filter: blur(4px);
+    transform: scale(1);
+    transition: .3s;
+}
+.intro {
+    position: absolute;
+    bottom: 130px;
+    padding: 20px;
+}
+li{
+    list-style-type: none;
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 18.2px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.title{
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(255, 0, 0);
+}
+.director{
+    color: rgb(253, 4, 4);
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-family: 'Roboto Mono', monospace;
+}
+i{
+    color: rgb(255, 4, 45);
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.kind{
+    margin-bottom: 10px;
+}
+.kind > span{
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-family: 'Roboto Mono', monospace;
+}
+.action{
+    background: rgb(252, 62, 62);
+}
+.sf{
+    background: rgb(0, 97, 241);
+}
+
+
+.summary{
+    position: absolute;
+    bottom: 0;
+    font-size: 16px;
+    color: rgb(17, 17, 17);
+    margin-top: 10px;
+    padding: 20px;
+}
+.summary > li{
+    font-size: 14px;
+}

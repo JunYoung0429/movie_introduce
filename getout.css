@@ -1,0 +1,103 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.wrap{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898; 
+    background-blend-mode: multiply,multiply;
+ }
+a{
+    text-decoration: none;
+    color: white;
+}
+.close{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 103px;
+    border-radius: 10px;
+    font-family: 'Do Hyeon', sans-serif;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+.card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 316px;
+    height: 500px;
+}
+.card > img{
+    filter: blur(3px);
+    transform: scale(1);
+    transition: .3s;
+}
+.intro {
+    position: absolute;
+    bottom: 10%;
+    padding: 20px;
+}
+li{
+    list-style-type: none;
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 18.2px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.title{
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(255, 0, 0);
+}
+.director{
+    color: rgb(253, 0, 0);
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-family: 'Roboto Mono', monospace;
+}
+i{
+    color: rgb(255, 0, 0);
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.kind{
+    margin-bottom: 10px;
+}
+.kind > span{
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 0px 20px;
+    font-family: 'Roboto Mono', monospace;
+}
+.mistery{
+    background: red;
+}
+.horror{
+    background: brown;
+}
+.th{
+    background: #f99185;
+}
+.drama{
+    background: #b12a5b;
+}
+.summary{
+    position: absolute;
+    bottom: 0;
+    font-size: 16px;
+    color: white;
+    margin-top: 10px;
+    padding: 20px;
+}
+.summary > li{
+    font-size: 20px;
+}
